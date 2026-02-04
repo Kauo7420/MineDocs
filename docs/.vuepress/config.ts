@@ -15,7 +15,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 import navbar from './navbar.ts'
 
 export default defineUserConfig({
-  base: '/docs/',
+  base: '/',
   lang: 'zh-CN',
   title: '萌新服主指南书',
   description: '',
