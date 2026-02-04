@@ -92,7 +92,7 @@ export default defineThemeConfig({
       include: ['**/*.md'], // 包含所有 .md 文件
       exclude: ['**/*.snippet.md'] // 排除代码片段文件
       postList: true, // 启用文章列表页
-      link: '/blog/', // 列表页链接
+      link: '/docs/blog/', // 列表页链接
       linkPrefix: '/blog/', // 文章链接前缀
       tags: true, // 启用标签页
       tagsLink: '/blog/tags/', // 标签页链接
