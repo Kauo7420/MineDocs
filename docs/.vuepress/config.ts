@@ -187,6 +187,7 @@ export default defineUserConfig({
           info: [
             {
               username: 'Kauo7420', // github username
+              alias: ['Kauo7420'], // 别名
             } 
           ],
         },
