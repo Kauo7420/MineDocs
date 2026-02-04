@@ -33,7 +33,7 @@ export default defineThemeConfig({
    * 文章版权信息
    * @see https://theme-plume.vuejs.press/guide/features/copyright/
    */
-  copyright: 'CC-BY-NA-4.0',
+  copyright: 'CC-BY-ND-4.0',
 
   // prevPage: true,   // 是否启用上一页链接
   // nextPage: true,   // 是否启用下一页链接
@@ -42,7 +42,7 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-    copyright: 'CC-BY-NA-4.0',
+    copyright: 'CC-BY-ND-4.0',
   },
 
   /**
