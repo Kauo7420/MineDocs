@@ -21,7 +21,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
   ],
 
   bundler: viteBundler(),
@@ -180,6 +180,7 @@ export default defineUserConfig({
         title: '文档',
         sidebar: 'auto', // 自动生成导航结构
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
+        editLink: true,
         lastUpdated: true,
         contributors: true,
         changelog: {
