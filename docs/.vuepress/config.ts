@@ -178,7 +178,10 @@ export default defineUserConfig({
         type: 'doc',
         dir: 'guide',
         title: '文档',
-        sidebar: 'auto', // 自动生成导航结构
+        sidebar: [
+          { text: '开始', prefix: 'intro', items: 'auto', icon: 'iconify carbon:home' },
+          { text: '插件教程', prefix: 'plugin', items: 'auto' },
+        ],
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
         editLink: true,
         lastUpdated: true,
