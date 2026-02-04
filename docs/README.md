@@ -1,5 +1,5 @@
 ---
-home: true
+pageLayout: home
 config:
   -
     type: banner
