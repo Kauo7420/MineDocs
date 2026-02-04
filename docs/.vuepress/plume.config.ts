@@ -91,6 +91,15 @@ export default defineThemeConfig({
       title: '博客',
       include: ['**/*.md'], // 包含所有 .md 文件
       exclude: ['**/*.snippet.md'] // 排除代码片段文件
+      profile: {
+          avatar: '/avatar.jpg', // 头像路径
+          name: '张三', // 显示名称
+          description: '个人简介', // 简介文本
+          circle: true, // 圆形头像
+          location: '广州', // 所在地
+          organization: '组织名称', // 所属组织
+          layout: 'right', // 布局位置 left|right
+      },
     }
   ]
 
