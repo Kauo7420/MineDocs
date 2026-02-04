@@ -25,7 +25,7 @@ export default defineThemeConfig({
     { icon: 'github', link: 'https://github.com/Kauo7420/docs' },
     { icon: 'qq', link: 'https://qm.qq.com/q/fQsVoOrc6Q' },
   ],
-  // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
+  navbarSocialInclude: ['github', 'qq'], // 允许显示在导航栏的 social 社交链接
   aside: true, // 页内侧边栏， 默认显示在右侧
   outline: [2, 3], // 页内大纲， 默认显示 h2, h3
 
@@ -33,7 +33,7 @@ export default defineThemeConfig({
    * 文章版权信息
    * @see https://theme-plume.vuejs.press/guide/features/copyright/
    */
-  copyright: true,
+  copyright: 'CC-BY-NC-4.0',
 
   // prevPage: true,   // 是否启用上一页链接
   // nextPage: true,   // 是否启用下一页链接
