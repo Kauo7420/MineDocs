@@ -32,9 +32,9 @@ export default defineUserConfig({
     // hostname: 'https://your_site_url',
 
     /* 文档仓库配置，用于 editLink */
-    //  docsRepo: '',
-    //  docsDir: 'docs',
-    //  docsBranch: '',
+    docsRepo: '',
+    docsDir: 'docs',
+    docsBranch: '',
 
     /* 页内信息 */
     //  editLink: true,
