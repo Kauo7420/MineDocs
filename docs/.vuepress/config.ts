@@ -177,7 +177,7 @@ export default defineUserConfig({
       {
         type: 'doc',
         dir: 'guide',
-        title: '指南',
+        title: '文档',
         sidebar: 'auto', // 自动生成导航结构
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
         editLink: true,
