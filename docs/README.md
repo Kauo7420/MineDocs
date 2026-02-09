@@ -27,54 +27,38 @@ config:
       -
         title: 新手友好
         icon: 🌟
-        details: 从零基础出发，语言通俗易懂，避免技术黑话，人人都能看懂
+        details: 零基础出发，语言通俗易懂，避免技术黑话，这要是还看不懂的话我就没招了
       -
         title: 分步引导
         icon: 🧭
-        details: 每一步操作清晰拆解，配有相关示例与预期结果说明（部分）
+        details: 每一步操作都做了清晰地拆解，且配有相关示例与直观的抽象图来辅助讲解，文字看不懂也能靠看图看懂！
       -
-        title: 实战案例
+        title: 操作演示
         icon: 🛠️
-        details: 包含家里云开服、云服务器/虚拟主机部署等真实场景教程
+        details: 包含了多种真实场景教程，直接从实战开始演示，用活生生的例子来讲解知识点
       -
-        title: 故障排查
-        icon: 🛠️
-        details: 提供常见错误代码对照表与修复方案，快速定位问题
+        title: FAQ
+        icon: 🤔
+        details: 提供常见问题的解答，可参考并快速解决问题
       -
         title: 性能优化
         icon: ⚡
-        details: 指导JVM参数调优、插件管理，提升服务器流畅度
+        details: 内含多种优化教程，包括但不限于指导JVM参数调优、插件管理、服务器配置等等，在不同程度上提升服务器流畅度
       -
-        title: 安全防护
+        title: 拓展学习
         icon: 🛡️
-        details: 涵盖白名单设置、防熊孩子机制、DDoS防护建议
+        details: 除了一些基础教程之外，我们还拓展了进阶的教程内容，可以让萌新服主学习到更多有用的东西
       -
         title: 实时更新
         icon: 🔄
-        details: 跟踪Minecraft版本与服务端更新，定期同步最佳实践
-      -
-        title: 离线可用
-        icon: 📥
-        details: 侧边栏内置打印按钮导出页面，无网络也能随时查阅手册内容
+        details: 不定时更新教程文档内容，跟进最新Minecraft版本，保证质量的同时又不落后版本
   - 
     type: custom
   -
     type: profile
     name: Kauo7420
-    description: 站长，撰写文档的主要负责人<br>QQ：2673861652
+    description: 站长，撰写文档的主要负责人
     avatar: /avatar.jpg
-    circle: true
-  -
-    type: profile
-    name: JerryHan3
-    description: 协助编写员，负责查漏补缺/补充内容
-    avatar: /avatar/JerryHan3.jpg
-    circle: true
-  -
-    type: profile
-    name: ideafox
-    description: 协助编写员，负责查漏补缺/补充内容
-    avatar: /avatar/ideafox.jpg
     circle: true
 ---
 # 贡献者

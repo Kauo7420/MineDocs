@@ -42,20 +42,20 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a><br>部分内容及结果均来自于网络，如有侵权请联系删除',
-    copyright: 'CC-BY-SA-4.0 © 2026 Kauo7420',
+    copyright: '<a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0//">CC-BY-SA-4.0</a> © 2026 Kauo7420',
   },
 
   /**
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
-  // profile: {
-  //   avatar: '/avatar.jpg',
-  //   name: 'Kauo7420',
-  //   description: '体温36.5°，但人生恒温-7°C',
-  //   circle: true,
-  //   location: '湖南',
-  //   organization: '学生',
-  // },
+  profile: {
+    avatar: '/avatar.jpg',
+    name: 'Kauo7420',
+    description: '体温36.5°，但人生恒温-7°C',
+    circle: true,
+    location: '湖南',
+    organization: '学生',
+  },
 
   navbar,
   collections: [ 
