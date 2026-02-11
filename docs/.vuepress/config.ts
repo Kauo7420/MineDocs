@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/docs/',
+  base: '/MineDocs/',
   lang: 'zh-CN',
   title: '萌新开服指南',
   description: '记录一些萌新服主可能会用到的知识点',
